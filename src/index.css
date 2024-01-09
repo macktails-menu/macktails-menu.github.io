@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Oswald";
+  background-color: #212121;
+}
+
+#root {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
+.fs14 {
+  font-size: 14px;
+}
+
+.fs16 {
+  font-size: 16px;
+}
+
+.fs18 {
+  font-size: 18px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.fs22 {
+  font-size: 22px;
+}
+
+.fs24 {
+  font-size: 24px;
+}
+
+.menu-color {
+  color: #d38107;
+  text-shadow: 1px 1px 3px #d3b867;
+}
+
+.price {
+  font-weight: 700;
+  color: #d38107;
+  text-shadow: 1px 1px 1px #d3b867;
+}
+
+.description {
+  color: #000;
+  text-shadow: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dashed-bg {
+  border-top: 2px dashed #d38107;
+  margin-top: 17px;
+}
+
+.header-logo {
+  position: initial !important;
+  display: initial !important;
+}
+
+.the-card {
+  background: none !important;
+}
+
+.card-image {
+  border: none !important;
+  height: 570px;
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+.card-content {
+  border: none !important;
+  padding: 24px 8px !important;
+  height: 153px;
+}
+
+.card-action {
+  border: none !important;
+}
+
+.card-title {
+  font-weight: bold !important;
+  text-shadow: 1px 1px 5px #000;
+  font-size: 26px !important;
+}
+
+.card-price {
+  background: #000;
+  color: #fff;
+  padding: 34px 8px;
+}
+
+.card-price p {
+  padding: 0;
+  margin: 0;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background: #000 !important;
+}
+
+.tabs .indicator {
+  background-color: #ff9800 !important;
+}
+
+.progress {
+  background-color: #fff3e0 !important;
+}
+
+.progress .indeterminate {
+  background-color: #ff9800 !important;
+}
+
+.social-media-container a.social-up {
+  margin-right: 30px;
+  margin-left: 30px;
+  color: #ff9800;
+}
+
+.social-media-container span.social-up {
+  margin-right: 10px;
+  position: absolute;
+  margin-left: -30px;
+}
+
+.social-media-container a.social-mobile {
+  margin-right: 0px;
+  margin-left: 30px;
+  position: relative;
+  color: #ff9800;
+}
+
+.social-media-container span.social-mobile {
+  position: absolute;
+  margin-left: -30px;
+}
+
+.btn-goto-top {
+  position: fixed !important;
+  bottom: 0px;
+  right: -2px;
+  opacity: 0.8;
+}
+
+#gotoTop {
+  display: none;
+}

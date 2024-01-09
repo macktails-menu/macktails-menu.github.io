@@ -1,0 +1,142 @@
+{
+  "menu": { 
+    "signature_classic":[
+        {
+          "name": "PURPLE BE LIKE",
+          "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+          "price": "P100.00",
+          "image": "https://drive.google.com/uc?export=view&id=1H0U4gzPx6DNmMdLxUnDVw0ljm6X75jOj"
+        },
+        {
+          "name": "Classic Item Two",
+          "description": "Some description here.",
+          "price": "P180.00",
+          "image": "https://drive.google.com/uc?export=view&id=1Q0_HgYHf_9A9fbJ5ybrpxrR1UICPbDEx"
+        },
+        {
+          "name": "Classic Item Three",
+          "description": "Some Description here.",
+          "price": "P210.00",
+          "image": "https://drive.google.com/uc?export=view&id=1RY4yxhryrgb8b9PHUo3oWe4z4hjDT1vS"
+        },
+        {
+          "name": "Classic Item Four",
+          "description": "Some Description here.",
+          "price": "P210.00",
+          "image": "https://drive.google.com/uc?export=view&id=1h0Ikc8wnW4RATm04JcLjusHNcGCAoX8n"
+        }
+    ],
+    "wellness_blend":[
+          {
+            "name": "Wellness Item One",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1Px03Hq_-fmQWOo4dSvhd-jQFsUlaHF2P"
+          },
+          {
+            "name": "Wellness Item Two",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1JAv_9wPDHZN7jgqTiuftNiUPJGuC3Swv"
+          },
+          {
+            "name": "Wellness Item Three",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1g6b6TU1i5BFffDC8bjCsKaqhgyU78QNB"
+          },
+          {
+            "name": "Wellness Item Four",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1pvbIAhpfWQE_s2YCXhg9u7Ya_9ZY_kQH"
+          }
+    ],
+    "limited_craft":[
+          {
+            "name": "Limited Craft Item One",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1fYPRaS99pRZ0YNOVIEQIL7l27RDXIV4L"
+          },
+          {
+            "name": "Limited Craft Item Two",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1m1QOIVrOzERZtzDkdQfXEKb1O08gdPRi"
+          }
+    ],
+    "tea_craft":[
+          {
+            "name": "Tea Craft",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1xFz9vTVziYqkPLQ9qd60NEL_lcR4cue7"
+          },
+          {
+            "name": "Tea Craft",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=13nKLit5vy7PG4LK3RB8-4uTakAOVcWNA"
+          },
+          {
+            "name": "Tea Craft",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1ncQj5RErWt2Vjy0FKsUNu7dOI1aUusJU"
+          },
+          {
+            "name": "Tea Craft",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1TOHP5pdItZtPJ_UzCvgvpsg5DD70FepB"
+          },
+          {
+            "name": "Tea Craft",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1BdNZs3UGqyeLLLhAHpO_olHjW3_2U9O2"
+          }
+    ],
+    "coffee_craft":[
+          {
+            "name": "Coffee Craft",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1ooOjY37oj0xerYTyjPgxEQ15d-nn1gig"
+          },
+          {
+            "name": "Coffee Craft",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1x_Sf0F-vqGGzKXd9GDhqZdW-VM25aAMx"
+          },
+          {
+            "name": "Coffee Craft",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1fYG8YjKTf-eM8lJ4Pj75UyBf5ycekvw3"
+          },
+          {
+            "name": "Coffee Craft",
+            "description": "A refreshing and delicate beverage with a promonent botanical flavor.",
+            "price": "P100.00",
+            "image": "https://drive.google.com/uc?export=view&id=1AqE_r5q4uYYOlRGg6IGNHbJNnBwvNNsW"
+          }
+    ]
+ },
+ "social_media": [
+    {
+      "facebook": {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/",
+        "logo": "fa-facebook-official"
+      },
+      "instagram": {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/",
+        "logo": "fa-instagram"
+      }
+    }
+ ]
+}
