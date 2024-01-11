@@ -8,13 +8,13 @@ const Footer = (props) => {
         social_media.forEach((social) => {
             Object.keys(social).forEach(function(e){
                 html += '<div class="col s4 m4 l4 xl4 hide-on-med-and-up" style="padding: 5px; padding-bottom: 20px;">';
-                    html += '<a href="' + social[e].url + '" class="fs16 social-mobile">';
+                    html += '<a href="' + social[e].url + '" class="fs16 social-mobile" target="_blank">';
                         html += '<span class="lni ' + social[e].logo +' fs24 social-mobile" aria-hidden="true"></span>';
                         html += social[e].name; 
                     html += '</a>';
                 html += '</div>';
 
-                html += '<a href="' + social[e].url + '" class="fs16 hide-on-small-only social-up">';
+                html += '<a href="' + social[e].url + '" class="fs16 hide-on-small-only social-up" target="_blank">';
                     html += '<span class="lni ' + social[e].logo +' fs24 social-up" aria-hidden="true"></span>';
                     html += social[e].name; 
                 html += '</a>';
