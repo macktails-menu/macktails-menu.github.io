@@ -1,5 +1,4 @@
 import React, {useEffect} from "react";
-import M from 'materialize-css';
 
 const Footer = (props) => {
     var social_media = props.socialmedia;
@@ -8,15 +7,15 @@ const Footer = (props) => {
         var html = '';
         social_media.forEach((social) => {
             Object.keys(social).forEach(function(e){
-                html += '<div class="col s6 m6 l6 xl6 hide-on-med-and-up" style="padding: 5px; padding-bottom: 20px;">';
+                html += '<div class="col s4 m4 l4 xl4 hide-on-med-and-up" style="padding: 5px; padding-bottom: 20px;">';
                     html += '<a href="' + social[e].url + '" class="fs16 social-mobile">';
-                        html += '<span class="fa ' + social[e].logo +' fs24 social-mobile" aria-hidden="true"></span>';
+                        html += '<span class="lni ' + social[e].logo +' fs24 social-mobile" aria-hidden="true"></span>';
                         html += social[e].name; 
                     html += '</a>';
                 html += '</div>';
 
                 html += '<a href="' + social[e].url + '" class="fs16 hide-on-small-only social-up">';
-                    html += '<span class="fa ' + social[e].logo +' fs24 social-up" aria-hidden="true"></span>';
+                    html += '<span class="lni ' + social[e].logo +' fs24 social-up" aria-hidden="true"></span>';
                     html += social[e].name; 
                 html += '</a>';
             });
@@ -26,6 +25,7 @@ const Footer = (props) => {
     }
 
     const gotoTop = (e) => {
+        e.preventDefault();
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
     }
 
@@ -48,7 +48,7 @@ const Footer = (props) => {
 
     return (
         <>
-            <a className="waves-effect waves-light orange darken-3 btn-small btn-goto-top " id="gotoTop" onClick={(e) => gotoTop(e)}>
+            <a href="test" className="waves-effect waves-light orange darken-3 btn-small btn-goto-top " id="gotoTop" onClick={(e) => gotoTop(e)}>
                 <span className="fa fa-arrow-up fs18"></span> Back to Top
             </a>
             <footer className="page-footer blue-grey darken-3">
